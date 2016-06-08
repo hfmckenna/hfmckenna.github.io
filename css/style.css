@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Cabin);
+body {
+  font-family: 'Cabin', serif;
+}
+
+#bgsunset {
+  background-image: url(http://www.myrtlepedals.com/images/Sunset.jpg);
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #141611;
+}
+
+#bgsunset h1 {
+  font-size: 400%;
+  font-weight: 600;
+}
+
+#bgsunset p {
+  padding: 5px;
+}
+
+.jumbotron {
+  background-color: rgba(12, 80, 120, 0.2);
+  color: white;
+  margin: 50px 50px 0px 50px;
+}
+
+.btn {
+  font-size: 220%;
+  letter-spacing: 1px;
+  margin: 10px 0px 0px 0px;
+  font-weight: 600;
+}
+
+#topSpace {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.pMain {
+  margin: 0% 5% 0% 5%;
+  position: relative;
+}
+
+.navbar {
+  opacity: 0.8;
+}
+
+.panel {
+  margin: 2% 15%;
+  opacity: 0.95;
+}
+
+.panel-body {
+  background-color: #141611;
+  color: white;
+  font-family: monospace;
+  padding: 00px;
+}
+
+.stripes {
+  background: linear-gradient(to bottom, #141611, white 20%, #141611 40%, white);
+  height: 20px;
+  background-size: 100% 5px;
+}
+
+.sections:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 480px) {
+  .sections {
+    width: 98%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .sections {
+    width: 95%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .sections {
+    width: 80%;
+  }
+}
+
+@media (min-width: 980px) {
+  .sections {
+    width: 80%;
+  }
+}
+
+#section1 {
+  border-style: groove;
+  border-width: 10px;
+  transition: opacity 1s;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0px;
+  background-image: url(http://www.myrtlepedals.com/images/DSI.jpg);
+}
+
+#section2 {
+  height: auto;
+  border-style: groove;
+  border-width: 10px;
+  transition: opacity 1s;
+  background-image: url(http://www.myrtlepedals.com/images/Panel.png);
+}
+
+#section3 {
+  border-style: groove;
+  height: auto;
+  border-width: 10px;
+  transition: opacity 1s;
+  background-image: url(http://www.myrtlepedals.com/images/Panel.png);
+}
+
+#section4 {
+  height: 200px;
+  border-style: groove;
+  height: auto;
+  border-width: 10px;
+  transition: opacity 1s;
+  background-image: url(http://www.myrtlepedals.com/images/Panel.png);
+}
+
+.final-background {
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background: webkit-linear-gradient(to bottom, rgba(255, 255, 255, 0.99) 10%, rgba(0, 0, 0, 0.6) 85%), url(http://www.myrtlepedals.com/images/Mountain.jpg) no-repeat;
+  background: -o-linear-gradient(to bottom, rgba(255, 255, 255, 0.99) 10%, rgba(0, 0, 0, 0.6) 85%), url(http://www.myrtlepedals.com/images/Mountain.jpg) no-repeat;
+  background: -moz-linear-gradient(to bottom, rgba(255, 255, 255, 0.99) 10%, rgba(0, 0, 0, 0.6) 85%), url(http://www.myrtlepedals.com/images/Mountain.jpg) no-repeat;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.99) 5%, rgba(0, 0, 0, 0.6) 85%), url(http://www.myrtlepedals.com/images/Mountain.jpg) no-repeat;
+}
