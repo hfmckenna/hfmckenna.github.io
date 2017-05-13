@@ -109,7 +109,6 @@ body {
   border-style: groove;
   border-width: 10px;
   transition: opacity 1s;
-  background-image: url(http://myrtlepedals.com/images/Quote.jpg);
 }
 
 #section3 {
@@ -117,7 +116,6 @@ body {
   height: auto;
   border-width: 10px;
   transition: opacity 1s;
-  background-image: url(http://hfmckenna.github.io/images/Panel.png);
 }
 
 #section4 {
